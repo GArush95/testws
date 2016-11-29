@@ -6,12 +6,15 @@ import javax.xml.datatype.XMLGregorianCalendar;
  * Created by Garushanyan on 24.11.2016.
  */
 public class PairOfDates {
+
     public XMLGregorianCalendar dateFrom, dateTo;
-        public PairOfDates(XMLGregorianCalendar date1, XMLGregorianCalendar date2) {
-            this.dateFrom=date1;
-            this.dateTo=date2;
-        }
-        public PairOfDates(){
+
+    public PairOfDates(XMLGregorianCalendar dateOne, XMLGregorianCalendar dateTwo) {
+        this.dateFrom = dateOne;
+        this.dateTo = dateTwo;
+    }
+
+    public PairOfDates() {
 
     }
 

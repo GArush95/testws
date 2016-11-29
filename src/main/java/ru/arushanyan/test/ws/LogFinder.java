@@ -17,9 +17,9 @@ public class TestWS
 {
 
     @WebMethod(operationName = "findString")
-    public ArrayList<String> findString(@WebParam(name = "Word") String word, @WebParam(name = "PairOfDates") ArrayList<PairOfDates> pairOfDates)
+    public ArrayList<String> findString(@WebParam(name = "Word") String word, @WebParam(name = "PairOfDates") ArrayList<PairOfDates> pairOfDates, @WebParam(name="Location") String location)
     {
-        return Search.findWord(word, pairOfDates);
+        return Search.findWord(word, pairOfDates, location);
     }
 
 }
