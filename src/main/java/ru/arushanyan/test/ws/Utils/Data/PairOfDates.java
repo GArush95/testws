@@ -1,13 +1,13 @@
-package ru.arushanyan.test.ws;
+package ru.arushanyan.test.ws.Utils.Data;
 
 import javax.xml.datatype.XMLGregorianCalendar;
 
 /**
  * Created by Garushanyan on 24.11.2016.
- */
+ **/
 public class PairOfDates {
 
-    public XMLGregorianCalendar dateFrom, dateTo;
+    private XMLGregorianCalendar dateFrom, dateTo;
 
     public PairOfDates(XMLGregorianCalendar dateOne, XMLGregorianCalendar dateTwo) {
         this.dateFrom = dateOne;

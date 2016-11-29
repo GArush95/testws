@@ -1,3 +1,4 @@
-ru\arushanyan\test\ws\PairOfDates.class
-ru\arushanyan\test\ws\TestWS.class
-ru\arushanyan\test\ws\Search.class
+ru\arushanyan\test\ws\Utils\Method\FileList.class
+ru\arushanyan\test\ws\Utils\Data\PairOfDates.class
+ru\arushanyan\test\ws\LogFinder.class
+ru\arushanyan\test\ws\Core\Search.class
